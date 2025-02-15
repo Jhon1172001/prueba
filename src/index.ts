@@ -7,5 +7,6 @@ import { seedAgents } from './seeders';
     console.log(`Server is running on port ${PORT}`);
   });
   await dbConnection.default();
+  //jhon gg
   //await seedAgents();
 })();
